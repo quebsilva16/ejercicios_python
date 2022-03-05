@@ -5,7 +5,8 @@ Lista: ['3', ' 5' , ' 7', ' 23']
 Tupla: ('3', ' 5', ' 7', ' 23')'''
 
 peticion_de_numero = input('Digite la secuencia de numeros')
-list = list(peticion_de_numero)
-tuple = tuple(peticion_de_numero)
+remplzar = peticion_de_numero.replace(',','')
+list = list(remplzar)
+tuple = tuple(list)
 print(list)
 print(tuple)

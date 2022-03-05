@@ -1,0 +1,5 @@
+secuencia = input('Escriba la secuencia de numeros: ')
+remplzar = secuencia.replace(',','')
+list = list(remplzar)
+print(max(remplzar))
+print(min(remplzar))
