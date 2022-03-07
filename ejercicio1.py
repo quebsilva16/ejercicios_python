@@ -1,2 +1,3 @@
-print('Python 3.10.2')
+import sys
 
+print(sys.version)

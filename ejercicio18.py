@@ -6,6 +6,6 @@ for dato in datos:
         break
 
 if letra == True:
-    print('Esta palabra tiene mayusculas')
+    print("Esta palabra tiene mayusculas")
 else:
     print('Esta palabra no tiene mayusculas')
