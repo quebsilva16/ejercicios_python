@@ -1,7 +1,6 @@
-from itertools import combinations
+from itertools import permutations
 
 vocales = ['a', 'e', 'i', 'o', 'u']
-temp = combinations(vocales, 2)
-
-for i in list(temp):
-    print(i)
+combinaciones = permutations(vocales, 5)
+for combinacion in combinaciones:
+    print(combinacion)
